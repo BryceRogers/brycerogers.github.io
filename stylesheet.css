@@ -1,0 +1,23 @@
+
+.banner {
+    background-color: #363636;
+    color: #e4e4e4;
+    padding-top: 10px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.main {
+    background-color: #cbcaca;
+}
+
+.thing-panel {
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.things-title {
+    text-align: center;
+}

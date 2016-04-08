@@ -1,0 +1,19 @@
+{
+  "name": "portfoliosite",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://BryceRogers@bitbucket.org/BryceRogers/portfoliosite.git"
+  },
+  "author": "Bryce Rogers",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/BryceRogers/portfoliosite#readme",
+  "dependencies": {
+    "bootstrap": "^3.3.6"
+  }
+}
