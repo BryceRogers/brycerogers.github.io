@@ -1,23 +1,99 @@
 
 .banner {
     background-color: #363636;
+    /*background-color: #f8f8f8;*/
     color: #e4e4e4;
-    padding-top: 10px;
-    margin-bottom: 15px;
+    /*color: #b0b0b0; */
+    padding-top: 30px;
     text-align: center;
+    border-bottom: 1px solid #b5b4b4;
 }
 
 .main {
-    background-color: #cbcaca;
-}
-
-.thing-panel {
-    margin-left: 40px;
-    margin-right: 40px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-
-.things-title {
+    background-color: #f2f0f0;
     text-align: center;
+}
+
+.pikee {
+    display: block;
+    margin: 0 auto;
+}
+
+.item-title {
+    font-size: 23px;
+    font-weight:500;
+}
+
+.item {
+    border-bottom: 3px solid #b5b4b4;
+    padding:20px;
+    background: white; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(rgb(64, 121, 97), rgb(177, 188, 222)); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(red, yellow); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(red, yellow); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(rgba(64, 121, 97, 0.08), rgba(182, 182, 182, 0.4)); /* Standard syntax */
+}
+
+.description {
+    margin:auto;
+    width:500px;
+}
+
+.navbar {
+    /*background-color: #a7a7a7;*/
+    margin-bottom: 0px;
+    /*border: 0px;*/
+}
+
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+}
+
+.the-title {
+    padding-bottom: 5px;
+}
+
+.about {
+    text-align: center;
+    padding-top: 30px;
+    margin:auto;
+    width: 600px
+}
+
+.contact-form {
+    padding: 20px;
+    width: 450px;
+    margin: auto;
+}
+
+.title-text {
+    font-size: 38px;
+    font-weight: 500;
+}
+
+
+ /* FORM ISH */
+textarea {
+  width: 100%;
+}
+input {
+    width: 100%;
+}
+.is-center {
+  text-align: center;
+}
+.button-success {
+  color: white;
+  border-radius: 4px;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+  background: rgb(28, 184, 65); /* this is a green */
+}
+.button-xlarge {
+  font-size: 125%;
 }

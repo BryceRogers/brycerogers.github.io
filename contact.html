@@ -1,0 +1,82 @@
+<html>
+
+    <header>
+        <title>Bryce Rogers</title>
+
+        <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+
+        <!-- Styles for form -->
+        <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+
+        <link rel="stylesheet" href="stylesheet.css">
+
+    </header>
+
+    <body class="main">
+
+        <div class="banner">
+
+            <div class="the-title">
+                <p class="title-text ">Bryce Rogers</p>
+                <h4>Software Developer. Games. Web. Mobile.</h4>
+            </div>
+
+            <nav class="navbar navbar-default">
+                <ul class="nav navbar-nav">
+                    <li><a href="/about.html">About</a></li>
+                    <li><a href="/index.html">Portfolio</a></li>
+                    <li class="active"><a href="/contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+
+
+
+        <div class="contact-form">
+            <form id="gform" method="POST" class="pure-form pure-form-stacked"
+            action="https://script.google.com/macros/s/AKfycbx3VxXaQcToSHRK9lo67-X40M761p9lbTv2Dmbk0fRk5UUQBTE/exec">
+
+              <fieldset class="pure-group">
+                <label for="name">Name</label>
+                <input id="name" name="name" placeholder="What you call yourself" />
+              </fieldset>
+
+              <fieldset class="pure-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="10"
+                placeholder="Enter message here..."></textarea>
+              </fieldset>
+
+              <fieldset class="pure-group">
+                <label for="email"><em>Your</em> Email Address</label>
+                <input id="email" name="email" type="email" value=""
+                required placeholder="your.name@email.com"/>
+                <span id="email-invalid" style="visibility:hidden">
+                  Must be a valid email address</span>
+              </fieldset>
+
+              <button class="button-success pure-button button-xlarge">
+                <i class="fa fa-paper-plane"></i>&nbsp;Send</button>
+
+            </form>
+        </div>
+
+        <div style="display:none;" id="thankyou_message">
+          <h3><em>Thanks</em> for contacting me!
+            I will do my best to get back to you soon.</h3>
+        </div>
+
+        <!-- Submit the Form to Google Using "AJAX" -->
+        <script data-cfasync="false" type="text/javascript"
+        src="https://cdn.rawgit.com/dwyl/html-form-send-email-via-google-script-without-server/master/form-submission-handler.js"></script>
+        <!-- <script data-cfasync="false" type="text/javascript"
+        src="/form-submission-handler.js"></script> -->
+        <!-- END -->
+
+
+
+    </body>
+
+</html>

@@ -1,18 +1,5 @@
 
-Redirect semifirm to /brycerogers for now
-
-add picture to title
+add picture to banner
 
 about tab
-    link to linkedin and personal project maybe?
-
-personal projects tab
-    sort by tags like: web, mobile, games
-
-contact tab
-
-
-
-
-NICE TO HAVES
-    Get a proper url without sifermi in it?
+    link to linkedin?
